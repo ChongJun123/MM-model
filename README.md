@@ -36,6 +36,8 @@ pre-processing.ipynb converts gojek demand and driver log parquet data into imag
     * Ensure it saves into 'micro' folder for training dataset and 'micro2' for testing dataset
 
 ## Main_model
+Trains and test models based on select region. Select region in second cell.
+
 Run all codes in the notebook.
 
 Results can be viewed in the final cell.
@@ -45,13 +47,7 @@ Results for each model are output-ed in two rows.
 * Second row is the result of the model with the best weights loaded from validation. 
 
 ## Other_models
+Trains and test models based on select region. Select region in second cell.
 
-'csv' folder contains training csv data
+Run all codes in the notebook.
 
-'csv2' folder contains testing csv data
-
-'images' folder contains training image data
-
-'images' folder contains testing image data
-
-'micro' and 'micro2' folders are missing
